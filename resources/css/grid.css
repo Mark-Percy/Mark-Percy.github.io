@@ -1,0 +1,19 @@
+.grid-container{
+	max-width:100%;
+	margin:0 0auto;
+}
+.cell{
+	flex:0 0auto;
+	box-sizing:border-box;
+}
+.grid-x{
+	display: flex;
+	flex-flow: row-wrap;
+	
+}
+.cell.small-1{
+	width:calc(8.3333%);
+}
+.cell.small-2{
+	width:calc(16.6666%);
+}
