@@ -1,0 +1,15 @@
+h1{
+	font-size:36px;
+	text-align:center;
+}
+nav{
+	max-width: 500px;
+}
+ul{
+	display:flex
+}
+li{
+	
+	padding:0 10px;
+	border-right:solid 2px #000000;
+}
