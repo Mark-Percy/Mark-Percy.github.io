@@ -1,15 +1,48 @@
+body{
+	margin: 0 100px;
+	margin-top: 30px;
+}
 h1{
 	font-size:36px;
 	text-align:center;
 }
+h2{
+	text-align:center;
+}
+h3 {
+	text-align:center;
+	margin-top: 10px;
+}
+#nav{
+	border:solid 1px #000000;
+}
 nav{
+	padding: 10px 0px;
 	max-width: 500px;
+	margin-left:auto;
+	margin-right:auto;
+	width:225px;
 }
 ul{
 	display:flex
 }
-li{
-	
+li {
 	padding:0 10px;
-	border-right:solid 2px #000000;
+	cursor: pointer;
+}
+li:not(:last-child){
+	border-right:solid 1px #000000;
+}
+
+.dropdown-items {
+	position: absolute;
+	/*display: none;*/
+	height:0;
+	overflow:hidden;
+	background-color:red;
+	transition: 0.5s linear;
+}
+.dropdown:hover .dropdown-items {
+	display:block;
+	height:50px;
 }
